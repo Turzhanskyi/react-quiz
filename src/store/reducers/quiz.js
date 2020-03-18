@@ -1,14 +1,13 @@
 import {
+  FETCH_QUIZ_SUCCESS,
   FETCH_QUIZES_ERROR,
   FETCH_QUIZES_START,
   FETCH_QUIZES_SUCCESS,
-  FETCH_QUIZ_SUCCESS,
-  QUIZ_SET_STATE,
   FINISH_QUIZ,
   QUIZ_NEXT_QUESTION,
-  QUIZ_RETRY
+  QUIZ_RETRY,
+  QUIZ_SET_STATE
 } from "../actions/actionTypes";
-import { bindActionCreators } from "redux";
 
 const initialState = {
   quizes: [],
@@ -61,15 +60,15 @@ export default function quizReducer(state = initialState, action) {
       return {
         ...state,
         answerState: null,
-        activeQuestion: bindActionCreators.number
+        activeQuestion: action.number
       };
     case QUIZ_RETRY:
       return {
         ...state,
-        results: {},
-        isFinished: false,
         activeQuestion: 0,
-        answerState: null
+        answerState: null,
+        isFinished: false,
+        results: {}
       };
     default:
       return state;

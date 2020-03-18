@@ -144,7 +144,7 @@ class QuizCreator extends Component {
   render() {
     const select = (
       <Select
-        label="Виберіть правильну відповідь"
+        label="Виберіть правильний варіант відповіді"
         value={this.state.rightAnswerId}
         onChange={this.selectChangeHandler}
         options={[
@@ -159,7 +159,7 @@ class QuizCreator extends Component {
     return (
       <div className={classes.QuizCreator}>
         <div>
-          <h1>Створення тесту</h1>
+          <h1>Створення теста</h1>
 
           <form onSubmit={this.submitHandler}>
             {this.renderControls()}
@@ -179,7 +179,7 @@ class QuizCreator extends Component {
               onClick={this.createQuizHandler}
               disabled={this.props.quiz.length === 0}
             >
-              Создать тест
+              Створити тест
             </Button>
           </form>
         </div>
