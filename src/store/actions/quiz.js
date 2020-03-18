@@ -4,10 +4,10 @@ import {
   FETCH_QUIZES_ERROR,
   FETCH_QUIZES_START,
   FETCH_QUIZES_SUCCESS,
-  QUIZ_SET_STATE,
   FINISH_QUIZ,
   QUIZ_NEXT_QUESTION,
-  QUIZ_RETRY
+  QUIZ_RETRY,
+  QUIZ_SET_STATE
 } from "./actionTypes";
 
 export function fetchQuizes() {
@@ -49,7 +49,7 @@ export function fetchQuizById(quizId) {
 
 export function fetchQuizSuccess(quiz) {
   return {
-    type: "FETCH_QUIZ_SUCCESS",
+    type: FETCH_QUIZ_SUCCESS,
     quiz
   };
 }
@@ -76,7 +76,7 @@ export function fetchQuizesError(e) {
 
 export function quizSetState(answerState, results) {
   return {
-    type: "QUIZ_SET_STATE",
+    type: QUIZ_SET_STATE,
     answerState,
     results
   };
@@ -95,7 +95,7 @@ export function quizNextQuestion(number) {
   };
 }
 
-export function retryQuiz(number) {
+export function retryQuiz() {
   return {
     type: QUIZ_RETRY
   };
@@ -128,12 +128,10 @@ export function quizAnswerClick(answerId) {
         } else {
           dispatch(quizNextQuestion(state.activeQuestion + 1));
         }
-
         window.clearTimeout(timeout);
       }, 1000);
     } else {
       results[question.id] = "error";
-
       dispatch(quizSetState({ [answerId]: "error" }, results));
     }
   };
