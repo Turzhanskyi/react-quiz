@@ -50,6 +50,8 @@ export function logout() {
   };
 }
 
+export function authLogin() {}
+
 export function authSuccess(token) {
   return {
     type: AUTH_SUCCESS,
