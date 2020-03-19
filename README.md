@@ -1,85 +1,38 @@
-# React quiz
+# React & Redux Project Quiz
 
-## React JS. С Нуля до Профессионала. Полный курс. Практика (раздел 6)
+Hosting URL: https://react-quiz-dc3aa.firebaseapp.com
 
-### Раздел 6: Практика. Компоненты
+## React JS. З Нуля до Професіонала. Повний курс. Практика. Проект "Вікторина".
 
-Основная часть курса включает 108 уроков общей продолжительностью 16 часов.
+### Розділ 6: Практика. компоненти
 
-И это без учета бонусов, в которых содержится ВСЯ необходимая теоретическая база для овладения React.js с полного нуля (включая основы JavaScript)!
+### Розділ 8: Практика. Роутінг
 
-При правильном использовании инструкций и приемов из курса, вы на наглядных примерах с полного нуля научитесь создавать динамические, реактивные, полностью адаптивные SPA-приложения и веб-сайты на библиотеке React.js.
+### Розділ 9: Практика. форми
 
-### Автор: Владилен Минин
+### Розділ 10: Практика. Робота з сервером
+
+### Розділ 12: Практика. Redux
+
+Основна частина курсу включає 108 уроків загальною тривалістю 16 годин.
+
+І це без урахування бонусів, в яких міститься ВСЯ необхідна теоретична база для оволодіння React.js з повного нуля (включаючи основи JavaScript)!
+
+При правильному використанні інструкцій і прийомів з курсу, ви на наочних прикладах з повного нуля навчитеся створювати динамічні, реактивні, повністю адаптивні SPA-додатки і веб-сайти на бібліотеці React.js.
+
+### Автор курсу: Владилен Минин
 
 Udemy URL: https://www.udemy.com/course/react-2020-complete-guide/
 
+### ---------------------------------------------------------
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Для локальної роботи з проектом необхідно:
 
-## Available Scripts
+### `1. yarn install`
 
-In the project directory, you can run:
-
-### `yarn start`
+### `2. yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Project Console: https://console.firebase.google.com/project/react-quiz-dc3aa/overview
